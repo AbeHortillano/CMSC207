@@ -33,6 +33,6 @@ A simple guide to interact with the project.
 ```
 
 ## Contributor
-Abe Almerol - Developer
+Abraham Almerol - Developer
 
 
