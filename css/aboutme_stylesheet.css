@@ -1,0 +1,221 @@
+body {
+	transition: background 0.5s ease-in-out;
+	background-image: url('images/bg-image1.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+div{
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: 20px;
+    padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box1{
+	background-color: #ffffff;
+	margin: 20px;
+    padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	position: relative;
+}	
+
+#cover-pic{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	object-position: center 58%;
+	display: block;
+}
+
+#prof-pic{
+	margin-top: -100px;
+    margin-left: 10px; 
+	width: 150px;
+	height: auto; 
+    border: 4px solid #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.box1 h1{
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.box1 h5{
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.menubulleted {
+	font-size: 20px;
+	list-style-type: disc;
+    display: flex;
+    padding: 0;
+    margin: 20px;
+    gap: 30px;
+    
+}
+
+.menubulleted li{
+	display: list-item;
+	margin-right: 0px;
+}
+
+#play-pause-bgmusic button{
+    padding: 0;
+    cursor: pointer;
+	background: none;
+    display: inline-block;
+	margin-top: 5px;
+}
+
+#play-pause-bgmusic img{
+    display: block;
+	width: 100%;
+	height: auto:
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#section-3{
+	display: flex;
+	gap: 20px;     
+	flex-wrap: wrap;
+	margin-bottom: 5px;
+}
+
+#section-3 p{
+	margin-top: 0;
+}
+
+.music-container{
+	display: flex;	
+}
+
+.btn-box{
+    width: 50px; 
+    padding: 20px;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+.bttn-label-music{
+	display: block;
+	width: 100%;
+    text-align: center;
+    margin-top: 5px; 
+    font-size: 14px; 
+    color: gray; 
+}
+
+.topskills {
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+	gap: 30px;
+}
+.topskills li{
+	font-size: 1rem;
+    padding-left: 0.5em; 
+	position: relative;
+}
+
+.topskills li:not(:first-child)::before{
+	content: '\25C6'; 
+    position: absolute;
+    left: -1em; 
+}
+
+@media (max-width: 768px) {
+.topskills {
+        gap: 10px; 
+    }
+
+.topskills li {
+        font-size: 0.9rem; 
+        padding-left: 0.6em;
+    }
+    
+.topskills li::before {
+        left: -0.8em;
+    }
+}
+
+@media (max-width: 480px) {
+.topskills {
+        gap: 5px;
+    }
+
+.topskills li {
+        font-size: 0.9rem;
+        padding-left: 0.5em;
+    }
+    
+.topskills li::before {
+        left: -0.3em;
+    }
+}
+
+.hobbies-interest-videos {
+    text-align: center; 
+}
+
+video {
+    width: 320px; 
+	max-width: 800px;
+	max-height: 240px;
+	display: block;
+	margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    video {
+        max-width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    video {
+        max-width: 90%;
+    }
+}
+
+.hobbies-interest-images{
+    display: flex; 
+    gap: 10px; 
+    justify-content: center; 
+    margin-top: 10px; 
+}
+
+.hobbies-interest-images img {
+    width: 45%; 
+    max-width: 300px; 
+    height: auto; 
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    max-width: 400px; 
+}
+
+.contact-item {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+.contact-item img {
+    width: 24px; 
+    height: 24px;
+    display: inline-block;
+}
