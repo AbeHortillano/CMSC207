@@ -107,10 +107,24 @@ div{
 .hobbies-interest-videos {
     text-align: center; 
 }
-
 video {
-    width: 320; 
-    height: 240; 
+    width: 320px; 
+    max-width: 800px;
+    max-height: 240px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  video {
+    max-width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    video {
+        max-width: 90%;
+    }
 }
 
 .hobbies-interest-images{
