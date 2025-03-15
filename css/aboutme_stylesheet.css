@@ -51,6 +51,13 @@ div{
 	margin-bottom: 0px;
 }
 
+.section-2{
+	display: flex;
+	gap: 20px;     
+	flex-wrap: wrap;
+	margin-bottom: 5px;
+}
+
 .menubulleted {
 	font-size: 20px;
 	list-style-type: disc;
