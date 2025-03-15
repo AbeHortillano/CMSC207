@@ -3,7 +3,7 @@ The author created a basic personal web profile, following the principles taught
 
 ## Features
 A list of key functionalities found in the web page.
-* Play/Pause the background music (the author's favorite song!)
+* Play/Pause the background music (the author's favorite songs!)
 * Change webpage wallpaper - you can choose from the three background images.
 
 ## Installation and Setup
@@ -13,7 +13,7 @@ Instructions on how to set up and run the project.
 
 ## Usage
 A simple guide to interact with the project.
-- Click the _Play Fave Song_ button to play or pause the author's favorite song.
+- Click any of the two music buttons to play or pause the author's favorite song.
 - Click the _Change Background Image_ to change the existing background image. You can select one from the three background images.
 
 ## Technologies Used
